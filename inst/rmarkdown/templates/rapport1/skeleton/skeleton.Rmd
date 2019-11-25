@@ -1,0 +1,31 @@
+---
+title: \vspace{3in} "Template Title"
+subtitle: |
+   "Your Class"
+author: "Your Name"
+date: "The Date"
+output: output_format
+header-includes:
+- \usepackage{fancyhdr}
+- \usepackage{lipsum}
+- \usepackage[document]{ragged2e}
+- \pagestyle{fancy}
+- \fancyhead[CO,CE]{"Your Team"}
+- \fancyfoot[CO,CE]{"Class-code"}
+- \fancyfoot[LE,RO]{\thepage}
+- \renewcommand{\contentsname}{Table des Matières}
+- \newcommand{\bcenter}{\begin{center}}
+- \newcommand{\ecenter}{\end{center}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Welcome to OliCo's template
+
+Make sure to ...  
+  
+  - Change the subtitle *"Your Class"* for the name of your class
+  - Change your team's number *"Your team"* that will appear at the top of the page
+  - Change the *"Class-code"* that will appear at the bottom of the page (ex: ACT-2009)

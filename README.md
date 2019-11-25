@@ -1,2 +1,4 @@
 # pdf_templates_Rmd_ACT
-Package for tempaltes in Rmarkdown
+Package for templates in Rmarkdown
+
+first package : rapport1
